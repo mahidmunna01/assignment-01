@@ -114,7 +114,77 @@ main{
 }
 /* Pillars of "Bangladesh 2.0 Section Close */
 
+
+
 /* The Vision of Future Section Start */
+.Vision-section{
+  margin-top: 5%;
+}
+
+.Vision-section .card-box{
+  display: flex;
+  gap:2%;
+  margin-top: 3%;
+}
+
+/* All card */
+.card-flex{
+  display:flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.Vision-section .card-one{
+  background-color: #83aeea;
+  padding: 2%;
+  border-radius: 16px;
+  flex-basis: 33%;
+}
+.Vision-section .card-two{
+  background-color: #C6E4D6;
+  padding: 2%;
+  border-radius: 16px;
+  flex-basis: 33%;
+}
+.Vision-section .card-three{
+  background-color: #F7EBCF;
+  padding: 2%;
+  border-radius: 16px;
+  flex-basis: 33%;
+}
+/* Card Hover */
+.Vision-section .card-flex:hover{
+ background-color: #006A50;
+ color: white;
+ cursor: pointer;
+}
+/* All Button */
+.Vision-section .button-one{
+ background-color: #5490F5;
+}
+.Vision-section .button-two{
+ background-color: #09A15C;
+}
+.Vision-section .button-three{
+ background-color: #FFC239;
+}
+/* Shared Button */
+.Vision-section button{
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.Vision-section button:hover{
+  background-color: black;
+}
+/* The Vision of Future Section Close */
+
+
+
+
 
 
 
