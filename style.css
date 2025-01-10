@@ -6,7 +6,10 @@ body{
   font-family: "Fira Sans", serif;
 }
  
-
+/* Shared title */
+.title{
+  font-size: 40px;
+}
 
 /* Header Part Design */
 header{
@@ -189,15 +192,19 @@ main{
   background-color: black;
 }
 .Doctor-Younus-section{
-  background-color: white;
   border: 1px solid #ddd;
   border-radius: 1em;
   padding: 2% 1%;
   margin-top: 3%;
   background: url(quote-bg.png);
+  background-color: white;
   background-repeat: no-repeat;
   background-position:1% 10%;
 }
+.Doctor-Younus-section p{
+ line-height: 30px;
+}
+
 /* The Vision of Future Section Close */
 
 
@@ -205,6 +212,9 @@ main{
 
 
 /* Your Opinion Matters Section start with Question */
+.Opinion-Matters-section{
+  margin-top: 5%;
+}
 .table-box{
   padding: 3%;
   border-radius: 10px;
@@ -243,9 +253,69 @@ select option{
 
 
 
+/* Recent-News-section Start */
 
+.Recent-News-section{
+  margin-top: 5%;
+}
 
+.News-section-description{
+  font-size: 1em;
+  line-height: 30px;
+}
+.News-box{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.Recent-News-section .News-one{
+  background-color: white;
+  border-radius: 24px;
+  padding: 3%;
+  display: flex;
+}
 
+.Recent-News-section .News-two{
+  background-color: white;
+  border-radius: 24px;
+  padding: 3%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.News-one-left{
+  flex-basis: 30%;
+}
+
+.News-one-right{
+  flex-basis: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.Recent-News-section img{
+  border-radius: 24px;
+}
+
+.Recent-News-section h3{
+  font-size: 32px;
+  font-weight: bold;
+}
+.Recent-News-section button{
+  background-color: #006A50;
+  color: white;
+  padding: 1% 2%;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.Recent-News-section button:hover{
+  background-color: black;
+}
+
+/* Recent-News-section Close */
 
 
 
