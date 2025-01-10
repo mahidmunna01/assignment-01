@@ -6,12 +6,12 @@ body{
   font-family: "Fira Sans", serif;
 }
  
-/* Header Part Design */
 
+
+/* Header Part Design */
 header{
   padding: 0% 10%;
 }
-
 /* Nav Part Design */
 nav{
   display: flex;
@@ -19,7 +19,7 @@ nav{
   justify-content: space-between;
 }
 .nav-title{
- font-size: 32px;
+ font-size: 2em;
  color: #0E0E0E;
 }
  .nav-button{
@@ -30,6 +30,7 @@ nav{
   border-radius: 8px;
   font-weight: bold;
   cursor: pointer;
+  text-wrap: nowrap;
  }
  .nav-button:hover{
   color: white;
@@ -70,14 +71,16 @@ nav{
 .banner-left-button:hover{
   background-color: black;
 }
-
 /* Header Section close */
+
 
 
 /* Main Section Start */
 main{
  padding: 0% 10%;
 }
+
+
 
 /* Pillars of "Bangladesh 2.0 Section start */
 .Pillars-section{
@@ -97,7 +100,7 @@ main{
   background-color: white;
   padding: 2%;
   border: 1px solid #ddd;
-  border-radius: 16px;
+  border-radius: 1em;
   flex-basis: 25%;
 }
 
@@ -111,10 +114,13 @@ main{
   font-size: 20px;
 }
 .card-description{
-  font-size: 16px;
+  font-size: 1em;
   opacity: 0.5;
 }
 /* Pillars of "Bangladesh 2.0 Section Close */
+
+
+
 
 
 
@@ -139,19 +145,19 @@ main{
 .Vision-section .card-one{
   background-color: #83aeea;
   padding: 2%;
-  border-radius: 16px;
+  border-radius: 1em;
   flex-basis: 33%;
 }
 .Vision-section .card-two{
   background-color: #C6E4D6;
   padding: 2%;
-  border-radius: 16px;
+  border-radius: 1em;
   flex-basis: 33%;
 }
 .Vision-section .card-three{
   background-color: #F7EBCF;
   padding: 2%;
-  border-radius: 16px;
+  border-radius: 1em;
   flex-basis: 33%;
 }
 /* Card Hover */
@@ -176,16 +182,64 @@ main{
   padding: 10px 20px;
   border: none;
   border-radius: 8px;
-  font-size: 16px;
+  font-size: 1em;
   cursor: pointer;
 }
 .Vision-section button:hover{
   background-color: black;
 }
+.Doctor-Younus-section{
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 1em;
+  padding: 2% 1%;
+  margin-top: 3%;
+  background: url(quote-bg.png);
+  background-repeat: no-repeat;
+  background-position:1% 10%;
+}
 /* The Vision of Future Section Close */
 
 
 
+
+
+/* Your Opinion Matters Section start with Question */
+.table-box{
+  padding: 3%;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  background-color: white;
+}
+
+table{
+  border: 1px solid #ddd;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+ thead tr{
+  background-color: #C6E4D6;
+  font-size: 20px;
+ }
+table td{
+  padding: 2%;
+  border: 2px solid #ddd;
+  font-size: 1em;
+  font-weight: bold;
+}
+td select{
+  background-color: #C6E4D6;
+  padding: 5%;
+  border-radius: 4px;
+  border: 1px solid;
+  font-weight: bold;
+}
+select option{
+  background-color: white;
+}
+
+/* Your Opinion Matters Section Close */
 
 
 
