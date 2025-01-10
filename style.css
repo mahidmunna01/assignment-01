@@ -6,7 +6,6 @@ body{
   font-family: "Fira Sans", serif;
 }
  
-
 /* Header Part Design */
 
 header{
@@ -70,3 +69,60 @@ nav{
 .banner-left-button:hover{
   background-color: black;
 }
+/* Header Section close */
+
+
+/* Main Section Start */
+main{
+  padding: 0% 10%;
+}
+
+/* Pillars of "Bangladesh 2.0 Section start */
+.Pillars-section{
+  margin-top: 5%;
+}
+
+.Pillars-section-title{
+  font-size: 40px;
+}
+
+.Pillars-section .card-box{
+ display: flex;
+ gap: 2%;
+}
+
+.Pillars-section .card{
+  background-color: white;
+  padding: 2%;
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  flex-basis: 25%;
+}
+
+.Pillars-section .card:hover{
+  background-color: #006A50;
+  cursor: pointer;
+  color: white;
+}
+
+.card-title{
+  font-size: 20px;
+}
+.card-description{
+  font-size: 16px;
+  opacity: 0.5;
+}
+/* Pillars of "Bangladesh 2.0 Section Close */
+
+/* The Vision of Future Section Start */
+
+
+
+
+
+
+
+
+
+
+
