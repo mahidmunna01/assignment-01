@@ -56,6 +56,7 @@ nav{
 .banner-left-title{
   font-size: 56px;
   padding-right: 36%;
+  margin-bottom:2%;
 }
 .banner-left-button{
   background-color: #006A50;
@@ -69,12 +70,13 @@ nav{
 .banner-left-button:hover{
   background-color: black;
 }
+
 /* Header Section close */
 
 
 /* Main Section Start */
 main{
-  padding: 0% 10%;
+ padding: 0% 10%;
 }
 
 /* Pillars of "Bangladesh 2.0 Section start */
