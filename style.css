@@ -1,0 +1,72 @@
+/* Font import: Fira Sans */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+  background-color:#F5F5F5;
+  font-family: "Fira Sans", serif;
+}
+ 
+
+/* Header Part Design */
+
+header{
+  padding: 0% 10%;
+}
+
+/* Nav Part Design */
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-title{
+ font-size: 32px;
+ color: #0E0E0E;
+}
+ .nav-button{
+  font-size: 18px;
+  color: #006A50;
+  padding: 10px 25px;
+  border: 1px solid #006A50;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+ }
+ .nav-button:hover{
+  color: white;
+  background-color: black;
+ }
+ /* Nav Design close */
+
+ /* Banner Design Start */
+.banner{
+  background-color: #C6E4D6;
+  border-radius: 24px;
+  padding: 5% 3%;
+  display: flex;
+  margin-top: 2%;
+}
+
+ .banner-left-greeting{
+  font-size: 24px;
+  color: black;
+  opacity: 0.4;
+  font-weight: bold;
+ }
+
+.banner-left-title{
+  font-size: 56px;
+  padding-right: 36%;
+}
+.banner-left-button{
+  background-color: #006A50;
+  font-size: 18px;
+  color: white;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  padding: 2% 2%;
+  cursor: pointer;
+}
+.banner-left-button:hover{
+  background-color: black;
+}
