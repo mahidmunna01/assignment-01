@@ -34,7 +34,7 @@ nav{
   border-radius: 8px;
   font-weight: bold;
   cursor: pointer;
-  text-wrap: nowrap;
+  white-space: nowrap;
   transition: 1s;
  }
  .nav-button:hover{
