@@ -372,6 +372,7 @@ select option{
 input::placeholder{
   text-align: center;
   font-size: 20px;
+  opacity: 0.4;
 }
 
 .donation-section button{
@@ -387,4 +388,53 @@ input::placeholder{
 .donation-section button:hover{
   background-color: black;
 }
+/* donation section close */
 
+
+/* newsletter-section start */
+.newsletter-section{
+  margin-top: 5%;
+  text-align: center;
+  background-color: #C6E4D6;
+  border-radius: 24px;
+  padding: 2% 5%;
+}
+.newsletter-section p{
+  font-size: 1em;
+  padding: 0% 25%;
+}
+
+
+/* form Design */
+.newsletter-section form{
+ display: flex;
+ justify-content: center;
+}
+.newsletter-section input{
+  padding: 1%;
+  border: none;
+}
+.newsletter-section input[type="email"]{
+  width: 50%;
+  border-radius: 8px 0px 0px 8px;
+  padding: 0% 3%;
+}
+.newsletter-section input[type="submit"]{
+  width: 10%;
+  background-color: #006A50;
+  color: white;
+  cursor: pointer;
+  border-radius: 0px 8px 8px 0px;
+  font-size: 18px;
+  padding-right: 10%;
+}
+.newsletter-section input[type="submit"]:hover{
+  background-color: black;
+}
+.newsletter-section input[type="email"]::placeholder{
+  text-align: left;
+  font-size: 18px;
+  color: #0E0E0E;
+  opacity: 0.3;
+}
+/* newsletter-section close*/
