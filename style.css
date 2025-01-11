@@ -1,7 +1,7 @@
 /* Font import: Fira Sans */
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-body{
+#body-style{
   background-color:#F5F5F5;
   font-family: "Fira Sans", serif;
 }
@@ -34,6 +34,7 @@ nav{
   font-weight: bold;
   cursor: pointer;
   text-wrap: nowrap;
+  transition: 1s;
  }
  .nav-button:hover{
   color: white;
@@ -70,6 +71,7 @@ nav{
   border: 1px solid #ddd;
   padding: 2% 2%;
   cursor: pointer;
+  transition: 1s;
 }
 .banner-left-button:hover{
   background-color: black;
@@ -105,6 +107,7 @@ main{
   border: 1px solid #ddd;
   border-radius: 1em;
   flex-basis: 25%;
+  transition: 1s;
 }
 
 .Pillars-section .card:hover{
@@ -143,6 +146,7 @@ main{
   display:flex;
   flex-direction: column;
   gap: 10px;
+  transition: 1s;
 }
 
 .Vision-section .card-one{
@@ -187,6 +191,7 @@ main{
   border-radius: 8px;
   font-size: 1em;
   cursor: pointer;
+  transition: 1s;
 }
 .Vision-section button:hover{
   background-color: black;
@@ -310,6 +315,7 @@ select option{
   border: none;
   border-radius: 8px;
   cursor: pointer;
+  transition: 1s;
 }
 .Recent-News-section button:hover{
   background-color: black;
@@ -319,6 +325,66 @@ select option{
 
 
 
+ /* donation section start */
+.donation-section{
+  margin-top: 5%;
+  text-align: center;
+}
+.donation-section-description{
+  padding: 0% 12%;
+}
+.donation-box{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 2%;
+}
+.donation-box div{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0% 3%;
+  border-radius: 1em;
+  transition: 1s;
+  border: 1px solid #ddd;
+}
+.donation-box div:hover{
+ background-color: #006A50;
+ cursor: pointer;
+ color: white;
+}
+.donation-box div:nth-child(2){
+  background-color: #C6E4D6;
+}
+.donation-box div:nth-child(2):hover{
+  background-color: black;
+}
 
+.donation-section input{
+  padding: 1%;
+  background-color: white;
+  border: none;
+  border-radius: 2px;
+  width: 70%;
+  margin: 2% 2%;
+}
+input::placeholder{
+  text-align: center;
+  font-size: 20px;
+}
 
+.donation-section button{
+  background-color: #006A50;
+  color: white;
+  padding: 1% 2%;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 1s;
+}
+.donation-section button:hover{
+  background-color: black;
+}
 
