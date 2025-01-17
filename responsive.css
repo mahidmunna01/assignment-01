@@ -1,0 +1,158 @@
+.hide{
+  display: none;
+}
+/* Mobile screen */
+ @media  screen and (max-width:576px){
+  header,main{
+    padding: 0% 5%;
+  }
+  nav{
+    flex-direction: column;
+    margin-bottom: 5%;
+  }
+  .nav-title{
+    font-size: 1.25rem;
+  }
+  .nav-button {
+   font-size: 1rem;
+   border-radius: 5px;
+  }
+  .banner{
+   flex-direction: column;
+   border-radius: 10px;
+  }
+  
+.banner-left-greeting {
+  font-size: 1rem;
+}
+  .banner-left-title{
+    font-size: 1.3rem;
+    padding-right: 0;
+  }
+  .banner-left-button{
+    font-size: 12px;
+    border-radius: 5px;
+
+  }
+  .banner img{
+    width: 100%;
+    margin-top: 5%;
+  }
+  .Pillars-section .card-box {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .Pillars-section-title,
+  .Vision-section-title,
+  .Question-section-title,
+  .Recent-News-section h3 {
+    font-size: 1.3rem;
+  }
+  .Vision-section .card-box{
+    flex-direction: column;
+    gap: 15px;
+  }
+  .Doctor-Younus-section {
+    padding: 5%;
+  }
+  table{
+    table-layout: fixed;
+  }
+ .News-one,
+ .News-three,
+ .Recent-News-section .News-two{
+  flex-direction: column;
+ }
+ .responsive{
+  width:100%;
+ }
+
+
+
+
+
+
+ }
+
+
+
+
+
+
+
+
+
+ /* Medium screen */
+ @media screen and (min-width:576px) and (max-width:992px) {
+   header,main{
+    padding: 0% 5%;
+  }
+  nav{
+    flex-direction: column;
+    margin-bottom: 5%;
+  }
+  .nav-title{
+    font-size: 1.25rem;
+  }
+  .nav-button {
+   font-size: 1rem;
+   border-radius: 5px;
+  }
+  .banner{
+   flex-direction: column;
+   border-radius: 10px;
+  }
+  
+.banner-left-greeting {
+  font-size: 1rem;
+}
+  .banner-left-title{
+    font-size: 1.3rem;
+    padding-right: 0;
+  }
+  .banner-left-button{
+    font-size: 12px;
+    border-radius: 5px;
+
+  }
+  .banner img{
+    width: 100%;
+    margin-top: 5%;
+  }
+  .Pillars-section .card-box{
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .Pillars-section-title,
+  .Vision-section-title,
+  .Question-section-title,
+  .Recent-News-section h3{
+    font-size: 1.3rem;
+
+  }
+  .Vision-section .card-box{
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+   .Doctor-Younus-section {
+    padding: 5%;
+  }
+
+ .News-one,
+ .News-three,
+ .Recent-News-section .News-two{
+  flex-direction: column;
+ }
+ .responsive{
+  width:100%;
+ }
+
+
+
+
+
+
+
+ }
