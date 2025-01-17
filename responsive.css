@@ -1,6 +1,4 @@
-.hide{
-  display: none;
-}
+
 /* Mobile screen */
  @media  screen and (max-width:576px){
   header,main{
@@ -45,10 +43,13 @@
   .Pillars-section-title,
   .Vision-section-title,
   .Question-section-title,
-  .Recent-News-section h3 {
+  .Recent-News-section h3,
+  .donation-section-title,
+  .Subscribe-Newsletter-title,
+  .footer-title-section h3 {
     font-size: 1.3rem;
   }
-  .Vision-section .card-box{
+  .Vision-section .card-box,.donation-box{
     flex-direction: column;
     gap: 15px;
   }
@@ -66,21 +67,31 @@
  .responsive{
   width:100%;
  }
-
-
-
-
-
-
+ .donation-section-description{
+  padding: 0 3%;
  }
-
-
-
-
-
-
-
-
+ .donation-box div .title{
+  font-size: 1.5rem;
+ }
+ .donation-section input{
+  padding: 3%;
+  border-radius: 8px;
+  margin: 5% 0%;
+ }
+ .newsletter-section form{
+  width: 80%;
+  margin: 0 auto;
+ }
+.newsletter-section input[type="email"],.newsletter-section input[type="submit"]{
+  width: 50%;
+}
+.newsletter-section input[type="email"]::placeholder,.newsletter-section input[type="submit"]{
+  font-size: 12px;
+}
+footer div p a{
+  font-size: 12px;
+}
+ }
 
  /* Medium screen */
  @media screen and (min-width:576px) and (max-width:992px) {
@@ -123,23 +134,21 @@
     flex-direction: column;
     gap: 15px;
   }
-
   .Pillars-section-title,
   .Vision-section-title,
   .Question-section-title,
-  .Recent-News-section h3{
+  .Recent-News-section h3,
+  .donation-section-title,
+  .footer-title-section h3 {
     font-size: 1.3rem;
-
   }
-  .Vision-section .card-box{
+  .Vision-section .card-box,.donation-box{
     flex-direction: column;
     gap: 15px;
   }
-  
    .Doctor-Younus-section {
     padding: 5%;
   }
-
  .News-one,
  .News-three,
  .Recent-News-section .News-two{
@@ -148,11 +157,28 @@
  .responsive{
   width:100%;
  }
+ .donation-section-description{
+  padding: 0 3%;
+ }
+ .donation-box div .title{
+  font-size: 1.5rem;
+ }
+ .donation-section input{
+  padding: 3%;
+  border-radius: 8px;
+  margin: 5% 0%;
+ }
+  .newsletter-section form{
+  width: 80%;
+  margin: 0 auto;
+ }
 
+.newsletter-section input[type="email"],.newsletter-section input[type="submit"]{
+  width: 50%;
+}
 
-
-
-
-
+.newsletter-section input[type="email"]::placeholder,.newsletter-section input[type="submit"]{
+  font-size: 12px;
+}
 
  }
