@@ -78,6 +78,13 @@
   border-radius: 8px;
   margin: 5% 0%;
  }
+ 
+ .Recent-News-section button, .donation-section button{
+  padding: 2%;
+  font-size: 1rem;
+  border-radius: 4px;
+}
+
  .newsletter-section form{
   width: 80%;
   margin: 0 auto;
@@ -179,6 +186,11 @@ footer div p a{
 
 .newsletter-section input[type="email"]::placeholder,.newsletter-section input[type="submit"]{
   font-size: 12px;
+}
+ .Recent-News-section button,.donation-section button{
+  padding: 2%;
+  font-size: 1rem;
+  border-radius: 4px;
 }
 
  }
